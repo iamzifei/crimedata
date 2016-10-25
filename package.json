@@ -1,0 +1,31 @@
+{
+  "name": "xlsx-processor",
+  "version": "0.0.1",
+  "description": "Process the xlsx",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "babel-node src/server.js",
+    "build": "babel src --out-dir lib"
+  },
+  "author": "Scotch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scotch-io/node-web-scraper"
+  },
+  "dependencies": {
+    "async": "latest",
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest",
+    "xlsx": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-es2015-parameters": "^6.18.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-strict-mode": "^6.18.0"
+  }
+}
